@@ -4,7 +4,7 @@ A method for generating global explanations of point clouds based on DDPM models
 Usage:
 
 
-1. Download dataset (ModelNet40, ShapeNet or other), put it in the /data folder.
+1. Download dataset (ModelNet40, ShapeNet or other), put it in the /data folder.
 
 2. Train the classifier to be explained by running train_classifier.py. For convenience, train_noised_classifier.py can be executed at the same time to train the noisified classifier, which improves performance during the explanation sampling process.
 
